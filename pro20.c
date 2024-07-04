@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter a random number");
+        scanf("%d",&n);
+    while (n%2!=0)
+    {
+        printf("Enter a random number");
+        scanf("%d",&n);
+    }
+    return 0;
+}
