@@ -13,7 +13,7 @@ int main()
     }else if(n<30){
         printf("grade-C");
     }else{
-        printf("invalid format");
+        printf("Format is invalid");
     }
     return 0;
 }
